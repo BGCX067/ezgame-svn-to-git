@@ -1,0 +1,21 @@
+﻿Build started 2009-11-04 오후 6:50:31.
+     1>Project "D:\ppp\study\Ez-1.0.0\CoreLibs\Ez3DUtility\Ez3DUtility.vcxproj" on node 7 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "Debug\Ez3DUtility.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\Ez3DUtility\\" /Fd"..\..\obj\Ez3DUtility\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt Ez3DUility.cpp
+         Ez3DUility.cpp
+     1>d:\ppp\study\ez-1.0.0\corelibs\ez3dutility\ez3duility.cpp(402): warning C4101: 'puiTriangleToPartition' : unreferenced local variable
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1095,5): warning MSB8012: TargetPath(D:\ppp\study\Ez-1.0.0\max\EzMaxPlugin\Debug\Ez3DUtility.lib) does not match the Library's OutputFile property value (D:\ppp\study\Ez-1.0.0\lib\Ez3DUtilityD.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1097,5): warning MSB8012: TargetName(Ez3DUtility) does not match the Library's OutputFile property value (Ez3DUtilityD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\lib\Ez3DUtilityD.lib" /NOLOGO ..\..\obj\Ez3DUtility\Ez3DUility.obj
+         Ez3DUtility.vcxproj -> D:\ppp\study\Ez-1.0.0\max\EzMaxPlugin\Debug\Ez3DUtility.lib
+       _AfterBuild:
+         Deleting file "Debug\Ez3DUtility.unsuccessfulbuild".
+         Touching "Debug\Ez3DUtility.lastbuildstate".
+     1>Done Building Project "D:\ppp\study\Ez-1.0.0\CoreLibs\Ez3DUtility\Ez3DUtility.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81

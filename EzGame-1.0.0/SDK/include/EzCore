@@ -1,0 +1,21 @@
+#ifndef _EZCORE_H_INCLUDE_
+#define _EZCORE_H_INCLUDE_
+
+
+#include "../../CoreLibs/EzCore/EzCore.h"
+#include "../../CoreLibs/EzCore/EzStandardAllocator.h"
+#include "../../CoreLibs/EzCore/EzSmallObjectAllocator.h"
+#include "../../CoreLibs/EzCore/EzMemManager.h"
+#include "../../CoreLibs/EzCore/EzConfigFile.h"
+#include "../../CoreLibs/EzCore/EzExcelCsv.h"
+#include "../../CoreLibs/EzCore/EzCriticalSection.h"
+#include "../../CoreLibs/EzCore/EzMeasurePerformance.h"
+#include "../../CoreLibs/EzCore/EzDebugConsole.h"
+#include "../../CoreLibs/EzCore/EzVariant.h"
+#include "../../CoreLibs/EzCore/EzSystem.h"
+#include "../../CoreLibs/EzCore/EzSet.h"
+#include "../../CoreLibs/EzCore/EzMemPool.h"
+#include "../../CoreLibs/EzCore/EzTime.h"
+#include "../../CoreLibs/EzCore/EzMemTracker.h"
+
+#endif

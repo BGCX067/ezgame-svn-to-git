@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="EZ_StaticLib_Debug"
+	>
+	<Tool
+		Name="VCLibrarianTool"
+		OutputFile=""
+	/>
+	<UserMacro
+		Name="EZ_TargetFile"
+		Value="..\..\lib\$(ProjectName)D.lib"
+	/>
+	<UserMacro
+		Name="EZ_OutFilesPath"
+		Value="..\..\obj\$(ProjectName)"
+	/>
+</VisualStudioPropertySheet>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99C1CE7C-E546-44C6-8337-7D249F57AD96}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EzMain3D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzActorManager.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzAnimator.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzAVObject.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzAVObjectPalette.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzBound.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzCamera.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzColorConverter.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzCullingProcess.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzDirectionalLight.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzDynamicEffect.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzDynamiceffectstate.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzExposedVideoData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzExtraData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzGeometry.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzGeometryData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzGridLine.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzHardwareSkinPartition.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzImage.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoader.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderBMP.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderDDS.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderTGA.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzLight.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzLine.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzLineData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzMacros.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzMaterialProperty.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzNode.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzObject.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzObjectFactory.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzObjectNET.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzProperty.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzPropertyState.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzRenderer.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzRendererData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzRenderPass.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzShader.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzShaderFactory.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzShaderLibrary.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzSkinData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzSkinInstance.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzStream.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzStringPalette.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTexture.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureSource.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureStage.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureStageGroup.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTexturingProperty.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriangleFromStrip.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriBasedGeom.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriBasedGeomData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriShape.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriShapeData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriStrips.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzTriStripsData.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzVersion.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\EzVideoDriver.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\SCreationParameters3D.h" />
+    <ClInclude Include="..\..\..\..\CoreLibs\EzMain3D\SLight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzActorManager.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzAnimator.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzAVObject.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzAVObjectPalette.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzBound.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzCamera.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzColorConverter.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzCullingProcess.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzDirectionalLight.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzDynamicEffect.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzDynamicEffectState.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzExtraData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzGeometry.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzGeometryData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzGridLine.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzHardwareSkinPartition.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzImage.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderBMP.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderDDS.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzImageLoaderTGA.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzLight.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzLine.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzLineData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzMaterialProperty.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzNode.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzObject.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzObjectFactory.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzObjectNET.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzProperty.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzPropertyState.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzRenderer.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzRendererData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzRenderPass.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzShader.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzShaderFactory.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzShaderLibrary.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzSkinData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzSkinInstance.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzStream.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzStringPalette.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTexture.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureSource.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureStage.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTextureStageGroup.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTexturingProperty.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriangleFromStrip.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriBasedGeom.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriBasedGeomData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriShape.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriShapeData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriStrips.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzTriStripsData.cpp" />
+    <ClCompile Include="..\..\..\..\CoreLibs\EzMain3D\EzVideoDriver.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

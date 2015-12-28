@@ -1,0 +1,20 @@
+#ifndef _EZMAIN3D_H_INCLUDE_
+#define _EZMAIN3D_H_INCLUDE_
+
+#include "../../CoreLibs/EzMain3D/EzDirectionalLight.h"
+#include "../../CoreLibs/EzMain3D/EzObjectFactory.h"
+#include "../../CoreLibs/EzMain3D/EzStream.h"
+#include "../../CoreLibs/EzMain3D/EzVersion.h"
+#include "../../CoreLibs/EzMain3D/EzTriShape.h"
+#include "../../CoreLibs/EzMain3D/EzTriShapeData.h"
+#include "../../CoreLibs/EzMain3D/EzTriStrips.h"
+#include "../../CoreLibs/EzMain3D/EzTriStripsData.h"
+#include "../../CoreLibs/EzMain3D/EzTextureSource.h"
+#include "../../CoreLibs/EzMain3D/EzVideoDriver.h"
+#include "../../CoreLibs/EzMain3D/EzMain3DSingtonGroup.h"
+#include "../../CoreLibs/EzMain3D/EzCamera.h"
+
+
+
+
+#endif

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9BufferManager.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9DefaultShader.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9Driver.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9GpuProgram.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9GPUProgramManager.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9HardwareSkinning.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9IndexBuffer.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9Mappings.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9MultiViewRenderer.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9Shader.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9Texture.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9TextureStage.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9VertexBuffer.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\D3D9Renderer\EzD3DX9VertexDeclaration.cpp">
+      <Filter>D3DX9Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Ez3DBuffer.cpp" />
+    <ClCompile Include="..\..\Ez3DBufferManager.cpp" />
+    <ClCompile Include="..\..\EzAnimator.cpp" />
+    <ClCompile Include="..\..\EzAVObject.cpp" />
+    <ClCompile Include="..\..\EzAVObjectPalette.cpp" />
+    <ClCompile Include="..\..\EzBound.cpp" />
+    <ClCompile Include="..\..\EzCamera.cpp" />
+    <ClCompile Include="..\..\EzColorConverter.cpp" />
+    <ClCompile Include="..\..\EzCullingProcess.cpp" />
+    <ClCompile Include="..\..\EzDirectionalLight.cpp" />
+    <ClCompile Include="..\..\EzDynamicEffect.cpp" />
+    <ClCompile Include="..\..\EzDynamicEffectState.cpp" />
+    <ClCompile Include="..\..\EzExtraData.cpp" />
+    <ClCompile Include="..\..\EzGeometry.cpp" />
+    <ClCompile Include="..\..\EzGeometryData.cpp" />
+    <ClCompile Include="..\..\EzGPUProgram.cpp" />
+    <ClCompile Include="..\..\EzGPUProgramManager.cpp" />
+    <ClCompile Include="..\..\EzGpuProgramParameters.cpp" />
+    <ClCompile Include="..\..\EzHardwareSkinPartition.cpp" />
+    <ClCompile Include="..\..\EzImage.cpp" />
+    <ClCompile Include="..\..\EzImageLoaderBMP.cpp" />
+    <ClCompile Include="..\..\EzImageLoaderDDS.cpp" />
+    <ClCompile Include="..\..\EzImageLoaderTGA.cpp" />
+    <ClCompile Include="..\..\EzIndexBuffer.cpp" />
+    <ClCompile Include="..\..\EzIndexData.cpp" />
+    <ClCompile Include="..\..\EzLight.cpp" />
+    <ClCompile Include="..\..\EzLine.cpp" />
+    <ClCompile Include="..\..\EzLineData.cpp" />
+    <ClCompile Include="..\..\EzMain3DSingtonGroup.cpp" />
+    <ClCompile Include="..\..\EzMaterialProperty.cpp" />
+    <ClCompile Include="..\..\EzNode.cpp" />
+    <ClCompile Include="..\..\EzObject.cpp" />
+    <ClCompile Include="..\..\EzObjectFactory.cpp" />
+    <ClCompile Include="..\..\EzObjectNET.cpp" />
+    <ClCompile Include="..\..\EzProperty.cpp" />
+    <ClCompile Include="..\..\EzPropertyState.cpp" />
+    <ClCompile Include="..\..\EzRenderer.cpp" />
+    <ClCompile Include="..\..\EzRendererData.cpp" />
+    <ClCompile Include="..\..\EzRenderPass.cpp" />
+    <ClCompile Include="..\..\EzShader.cpp" />
+    <ClCompile Include="..\..\EzShaderFactory.cpp" />
+    <ClCompile Include="..\..\EzShaderLibrary.cpp" />
+    <ClCompile Include="..\..\EzSkinData.cpp" />
+    <ClCompile Include="..\..\EzSkinInstance.cpp" />
+    <ClCompile Include="..\..\EzStream.cpp" />
+    <ClCompile Include="..\..\EzStringPalette.cpp" />
+    <ClCompile Include="..\..\EzTexture.cpp" />
+    <ClCompile Include="..\..\EzTextureSource.cpp" />
+    <ClCompile Include="..\..\EzTextureStage.cpp" />
+    <ClCompile Include="..\..\EzTextureStageGroup.cpp" />
+    <ClCompile Include="..\..\EzTexturingProperty.cpp" />
+    <ClCompile Include="..\..\EzTriangleFromStrip.cpp" />
+    <ClCompile Include="..\..\EzTriBasedGeom.cpp" />
+    <ClCompile Include="..\..\EzTriBasedGeomData.cpp" />
+    <ClCompile Include="..\..\EzTriShape.cpp" />
+    <ClCompile Include="..\..\EzTriShapeData.cpp" />
+    <ClCompile Include="..\..\EzTriStrips.cpp" />
+    <ClCompile Include="..\..\EzTriStripsData.cpp" />
+    <ClCompile Include="..\..\EzVertexBuffer.cpp" />
+    <ClCompile Include="..\..\EzVertexBufferBinding.cpp" />
+    <ClCompile Include="..\..\EzVertexData.cpp" />
+    <ClCompile Include="..\..\EzVertexDeclaration.cpp" />
+    <ClCompile Include="..\..\EzVertexElement.cpp" />
+    <ClCompile Include="..\..\EzVideoDriver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9BufferManager.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9DefaultShader.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9Driver.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9GpuProgram.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9GPUProgramManager.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9HardwareSkinning.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9IndexBuffer.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9Mappings.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9MultiViewRenderer.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9Shader.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9Texture.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9TextureStage.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9VertexBuffer.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\D3D9Renderer\EzD3DX9VertexDeclaration.h">
+      <Filter>D3DX9Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Ez3DBuffer.h" />
+    <ClInclude Include="..\..\Ez3DBufferManager.h" />
+    <ClInclude Include="..\..\EzAnimator.h" />
+    <ClInclude Include="..\..\EzAVObject.h" />
+    <ClInclude Include="..\..\EzAVObjectPalette.h" />
+    <ClInclude Include="..\..\EzBound.h" />
+    <ClInclude Include="..\..\EzCamera.h" />
+    <ClInclude Include="..\..\EzColorConverter.h" />
+    <ClInclude Include="..\..\EzCullingProcess.h" />
+    <ClInclude Include="..\..\EzDirectionalLight.h" />
+    <ClInclude Include="..\..\EzDynamicEffect.h" />
+    <ClInclude Include="..\..\EzDynamiceffectstate.h" />
+    <ClInclude Include="..\..\EzExposedVideoData.h" />
+    <ClInclude Include="..\..\EzExtraData.h" />
+    <ClInclude Include="..\..\EzGeometry.h" />
+    <ClInclude Include="..\..\EzGeometryData.h" />
+    <ClInclude Include="..\..\EzGPUProgram.h" />
+    <ClInclude Include="..\..\EzGPUProgramManager.h" />
+    <ClInclude Include="..\..\EzGpuProgramParameters.h" />
+    <ClInclude Include="..\..\EzGpuProgramUsage.h" />
+    <ClInclude Include="..\..\EzHardwareSkinPartition.h" />
+    <ClInclude Include="..\..\EzImage.h" />
+    <ClInclude Include="..\..\EzImageLoader.h" />
+    <ClInclude Include="..\..\EzImageLoaderBMP.h" />
+    <ClInclude Include="..\..\EzImageLoaderDDS.h" />
+    <ClInclude Include="..\..\EzImageLoaderTGA.h" />
+    <ClInclude Include="..\..\EzIndexBuffer.h" />
+    <ClInclude Include="..\..\EzIndexData.h" />
+    <ClInclude Include="..\..\EzLight.h" />
+    <ClInclude Include="..\..\EzLine.h" />
+    <ClInclude Include="..\..\EzLineData.h" />
+    <ClInclude Include="..\..\EzMacros.h" />
+    <ClInclude Include="..\..\EzMain3D.h" />
+    <ClInclude Include="..\..\EzMain3DSingtonGroup.h" />
+    <ClInclude Include="..\..\EzMaterialProperty.h" />
+    <ClInclude Include="..\..\EzNode.h" />
+    <ClInclude Include="..\..\EzObject.h" />
+    <ClInclude Include="..\..\EzObjectFactory.h" />
+    <ClInclude Include="..\..\EzObjectNET.h" />
+    <ClInclude Include="..\..\EzProperty.h" />
+    <ClInclude Include="..\..\EzPropertyState.h" />
+    <ClInclude Include="..\..\EzRenderer.h" />
+    <ClInclude Include="..\..\EzRendererData.h" />
+    <ClInclude Include="..\..\EzRenderPass.h" />
+    <ClInclude Include="..\..\EzShader.h" />
+    <ClInclude Include="..\..\EzShaderFactory.h" />
+    <ClInclude Include="..\..\EzShaderLibrary.h" />
+    <ClInclude Include="..\..\EzSkinData.h" />
+    <ClInclude Include="..\..\EzSkinInstance.h" />
+    <ClInclude Include="..\..\EzStream.h" />
+    <ClInclude Include="..\..\EzStringPalette.h" />
+    <ClInclude Include="..\..\EzTexture.h" />
+    <ClInclude Include="..\..\EzTextureSource.h" />
+    <ClInclude Include="..\..\EzTextureStage.h" />
+    <ClInclude Include="..\..\EzTextureStageGroup.h" />
+    <ClInclude Include="..\..\EzTexturingProperty.h" />
+    <ClInclude Include="..\..\EzTriangleFromStrip.h" />
+    <ClInclude Include="..\..\EzTriBasedGeom.h" />
+    <ClInclude Include="..\..\EzTriBasedGeomData.h" />
+    <ClInclude Include="..\..\EzTriShape.h" />
+    <ClInclude Include="..\..\EzTriShapeData.h" />
+    <ClInclude Include="..\..\EzTriStrips.h" />
+    <ClInclude Include="..\..\EzTriStripsData.h" />
+    <ClInclude Include="..\..\EzVersion.h" />
+    <ClInclude Include="..\..\EzVertexBuffer.h" />
+    <ClInclude Include="..\..\EzVertexBufferBinding.h" />
+    <ClInclude Include="..\..\EzVertexData.h" />
+    <ClInclude Include="..\..\EzVertexDeclaration.h" />
+    <ClInclude Include="..\..\EzVertexElement.h" />
+    <ClInclude Include="..\..\EzVideoDriver.h" />
+    <ClInclude Include="..\..\SLight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="D3DX9Renderer">
+      <UniqueIdentifier>{7d93cec2-a9fa-4f05-94fe-350d0deea6cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

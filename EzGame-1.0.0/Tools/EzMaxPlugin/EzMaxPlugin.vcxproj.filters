@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c18d77c7-c042-4a51-95b4-d67b557295af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EzMaxExport">
+      <UniqueIdentifier>{0728d98b-5197-4692-80c9-00a4dcf48376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EzMaxShader">
+      <UniqueIdentifier>{91b61b76-a797-4c75-a14a-0ac6948ba129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{688d0c30-19c1-49bc-ae53-e677d0cc95f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExMaxExport">
+      <UniqueIdentifier>{9d4f7f47-d632-49a2-b6ee-c797733c6342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExMaxShader">
+      <UniqueIdentifier>{e9197b2c-3ca6-4ea8-9c53-e675a3048c26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EzExport\3dsmaxport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EzExport\Exporter.h">
+      <Filter>Header Files\EzMaxExport</Filter>
+    </ClInclude>
+    <ClInclude Include="EzExport\EzExporter.h">
+      <Filter>Header Files\EzMaxExport</Filter>
+    </ClInclude>
+    <ClInclude Include="EzExport\EzGenerateMesh.h">
+      <Filter>Header Files\EzMaxExport</Filter>
+    </ClInclude>
+    <ClInclude Include="EzExport\objectParams.h">
+      <Filter>Header Files\EzMaxExport</Filter>
+    </ClInclude>
+    <ClInclude Include="EzMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EzMaxPluginPch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EzShader\EzMaxShader.h">
+      <Filter>Header Files\EzMaxShader</Filter>
+    </ClInclude>
+    <ClInclude Include="EzShader\EzMaxShaderDialog.h">
+      <Filter>Header Files\EzMaxShader</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EzExport\Exporter.cpp">
+      <Filter>Source Files\ExMaxExport</Filter>
+    </ClCompile>
+    <ClCompile Include="EzExport\EzExporter.cpp">
+      <Filter>Source Files\ExMaxExport</Filter>
+    </ClCompile>
+    <ClCompile Include="EzExport\EzGenerateMesh.cpp">
+      <Filter>Source Files\ExMaxExport</Filter>
+    </ClCompile>
+    <ClCompile Include="EzExport\MtlTex.cpp">
+      <Filter>Source Files\ExMaxExport</Filter>
+    </ClCompile>
+    <ClCompile Include="EzMaxPluginPch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EzShader\EzMaxShader.cpp">
+      <Filter>Source Files\ExMaxShader</Filter>
+    </ClCompile>
+    <ClCompile Include="EzShader\EzMaxShaderDialog.cpp">
+      <Filter>Source Files\ExMaxShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EzMaxPlugin.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EzMaxPlugin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

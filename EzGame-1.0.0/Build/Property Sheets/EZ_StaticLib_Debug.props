@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <EZ_TargetFile>..\..\lib\$(ProjectName)D.lib</EZ_TargetFile>
+    <EZ_OutFilesPath>..\..\obj\$(ProjectName)</EZ_OutFilesPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.21006.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Lib>
+      <OutputFile>
+      </OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="EZ_TargetFile">
+      <Value>$(EZ_TargetFile)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EZ_OutFilesPath">
+      <Value>$(EZ_OutFilesPath)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

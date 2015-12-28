@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<VisualStudioPropertySheet ProjectType="Visual C++" Version="8.00" Name="EZ_StaticLib" OutputDirectory="..\$(EZ_Suffix)" IntermediateDirectory="..\$(EZ_Suffix)">
+   <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="_LIB"/>
+   <UserMacro Name="EZ_Suffix" Value="Lib"/>
+   <UserMacro Name="EZ_Path" Value="Lib\VC80\$(EZ_Configuration_Name)$(EZ_Suffix)"/>
+   <UserMacro Name="EZ_Filename" Value="$(EZ_Target_Path)\$(ProjectName).lib"/>
+</VisualStudioPropertySheet>

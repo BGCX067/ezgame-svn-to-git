@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3D Data Types">
+      <UniqueIdentifier>{84f24451-9cf8-4ca4-aee4-f64493b330e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Document">
+      <UniqueIdentifier>{cedfa66a-2526-4226-b041-db1fa4100232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK_include">
+      <UniqueIdentifier>{410cf459-975f-4e9e-ac90-4d21ccb75c91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\SDK\include\EzAppMain.h">
+      <Filter>SDK_include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SDK\include\EzPoint2">
+      <Filter>SDK_include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzAabbox3d.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzAllocator.h" />
+    <ClInclude Include="..\..\EzArray.h" />
+    <ClInclude Include="..\..\EzColor.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzConfigFile.h" />
+    <ClInclude Include="..\..\EzCore.h" />
+    <ClInclude Include="..\..\EzCoreLibType.h" />
+    <ClInclude Include="..\..\EzCoreSingtonGroup.h" />
+    <ClInclude Include="..\..\EzCoreUtility.h" />
+    <ClInclude Include="..\..\EzCriticalSection.h" />
+    <ClInclude Include="..\..\EzDebugConsole.h" />
+    <ClInclude Include="..\..\EzDebugHelper.h" />
+    <ClInclude Include="..\..\EzDimension2d.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzEnumTypes.h" />
+    <ClInclude Include="..\..\EzExcelCsv.h" />
+    <ClInclude Include="..\..\EzExcelCsvLine.h" />
+    <ClInclude Include="..\..\EzFast_atof.h" />
+    <ClInclude Include="..\..\EzFile.h" />
+    <ClInclude Include="..\..\EzFlags.h" />
+    <ClInclude Include="..\..\EzHeapsort.h" />
+    <ClInclude Include="..\..\EzLine2d.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzLine3d.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzList.h" />
+    <ClInclude Include="..\..\EzLogger.h" />
+    <ClInclude Include="..\..\EzLogManager.h" />
+    <ClInclude Include="..\..\EzMain.h" />
+    <ClInclude Include="..\..\EzMap.h" />
+    <ClInclude Include="..\..\EzMath.h" />
+    <ClInclude Include="..\..\EzMatrix3.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzMatrix4.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzMeasurePerformance.h" />
+    <ClInclude Include="..\..\EZMemManager.h" />
+    <ClInclude Include="..\..\EzMemObject.h" />
+    <ClInclude Include="..\..\EzMemoryDefines.h" />
+    <ClInclude Include="..\..\EzMemPool.h" />
+    <ClInclude Include="..\..\EzMemTracker.h" />
+    <ClInclude Include="..\..\EzMetricsTimer.h" />
+    <ClInclude Include="..\..\EzOSOperator.h" />
+    <ClInclude Include="..\..\EzPath.h" />
+    <ClInclude Include="..\..\EzPlane3d.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzPoint2.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzPoint3.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzQuaternion.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzRect.h">
+      <Filter>3D Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EzRefObject.h" />
+    <ClInclude Include="..\..\EzRTTI.h" />
+    <ClInclude Include="..\..\EzSet.h" />
+    <ClInclude Include="..\..\EzSingleton.h" />
+    <ClInclude Include="..\..\EzSmallObjectAllocator.h" />
+    <ClInclude Include="..\..\EzSmartPointer.h" />
+    <ClInclude Include="..\..\EzStandardAllocator.h" />
+    <ClInclude Include="..\..\EzString.h" />
+    <ClInclude Include="..\..\EzSystem.h" />
+    <ClInclude Include="..\..\EzThread.h" />
+    <ClInclude Include="..\..\EzTime.h" />
+    <ClInclude Include="..\..\EzTriangle.h" />
+    <ClInclude Include="..\..\EzTriangle3d.h" />
+    <ClInclude Include="..\..\EzVariant.h" />
+    <ClInclude Include="..\..\EzXML.h" />
+    <ClInclude Include="..\..\EzXMLReaderImpl.h" />
+    <ClInclude Include="..\..\Keycodes.h" />
+    <ClInclude Include="..\..\SViewFrustum.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\EzConfigFile.cpp" />
+    <ClCompile Include="..\..\EzCore.cpp" />
+    <ClCompile Include="..\..\EzCoreSingtonGroup.cpp" />
+    <ClCompile Include="..\..\EzDebugConsole.cpp" />
+    <ClCompile Include="..\..\EzDebugHelper.cpp" />
+    <ClCompile Include="..\..\EzExcelCsv.cpp" />
+    <ClCompile Include="..\..\EzExcelCsvLine.cpp" />
+    <ClCompile Include="..\..\EzFile.cpp" />
+    <ClCompile Include="..\..\EzLogger.cpp" />
+    <ClCompile Include="..\..\EzLogManager.cpp" />
+    <ClCompile Include="..\..\EzMath.cpp" />
+    <ClCompile Include="..\..\EzMeasurePerformance.cpp" />
+    <ClCompile Include="..\..\EZMemManager.cpp" />
+    <ClCompile Include="..\..\EzMemObject.cpp" />
+    <ClCompile Include="..\..\EzMemoryDefines.cpp" />
+    <ClCompile Include="..\..\EzMemTracker.cpp" />
+    <ClCompile Include="..\..\EzOSOperator.cpp" />
+    <ClCompile Include="..\..\EzPath.cpp" />
+    <ClCompile Include="..\..\EzRefObject.cpp" />
+    <ClCompile Include="..\..\EzSingleton.cpp" />
+    <ClCompile Include="..\..\EzSmallObjectAllocator.cpp" />
+    <ClCompile Include="..\..\EzStandardAllocator.cpp" />
+    <ClCompile Include="..\..\EzThread.cpp" />
+    <ClCompile Include="..\..\EzTime.cpp" />
+    <ClCompile Include="..\..\EzTransform.cpp" />
+    <ClCompile Include="..\..\EzVariant.cpp" />
+    <ClCompile Include="..\..\EzXML.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Document\EzGame3DUML\EzGame3D.uml">
+      <Filter>Document</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\Ez3DUtility">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzArray">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzColor">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzConfigFile">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzCore">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzDebugHelper">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzLogger">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzMain3D">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzMap">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzMaterialProperty">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzMatrix3">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzNode">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzPoint3">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzRtti">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzShaderFactory">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzString">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzTexturingProperty">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="..\..\..\..\SDK\include\EzTriangle">
+      <Filter>SDK_include</Filter>
+    </None>
+    <None Include="EzCoreDiagram.cd">
+      <Filter>Document</Filter>
+    </None>
+  </ItemGroup>
+</Project>

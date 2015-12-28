@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EzAabbox3d" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAMAAEAEAAIAAAgAgAIQAAIAAAACEAAAkAIAAAQRA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzAabbox3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzAllocator" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAGAAAAAABBAEAIAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezallocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzAllocatorInterface&lt;T&gt;" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAIAAAgAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezallocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzArray&lt;T, TAlloc&gt;" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAACgAQCBGAAAABIEYAQASMAEAQgAAAECwQAIAAIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezarray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzColor" Collapsed="true">
+    <Position X="42.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAQAEABAAgAAAYAAUAAAACAAACAAAAgIAEAGIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcolor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzColor" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAEAAAAgAAAYAAQAAAQAQAAAoAUAhAAAAEIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcolor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzColorHSL" Collapsed="true">
+    <Position X="44.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQQAAAAAAAEAAIAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcolor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzConfigFile" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUCAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAQAAACACA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzConfigFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzCriticalSection" Collapsed="true">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAYAAEAACAAAAAACAABAAAAAAAAAAAAABAgAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcriticalsection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzFastCriticalSection" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAICAEAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcriticalsection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzDebugConsole" Collapsed="true">
+    <Position X="42.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAQAAAAAAAAAAAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezdebugconsole.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzDimension2d" Collapsed="true">
+    <Position X="44.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABEAAAAAAAAQAAUAAAAAAAAAAAAAgAAACABA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezdimension2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzExcelCsv" Collapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAgCAAAAAgAMAACAAAAAQAABAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzExcelCsv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzExcelCsvLine" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAgABAAQAgAAAECAAAAQQAAAAAAAAAwAAAACA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzExcelCsvLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzFile" Collapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggIAIAAAAACQACAAAAAAIAAAAAYEAACAEAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezfile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLine2d" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGACAAAkAAQgEAAAAQAAIBAAQABAAEAwAAAAAIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezline2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLine3d" Collapsed="true">
+    <Position X="41" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAEAAAgCAAAAQAAIBAAAABAAEAwACAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezline3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzList&lt;T&gt;" Collapsed="true">
+    <Position X="42.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAACACAICAgQAAAAEIAAASAAAAAAAACAAjAAAACAg=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMap&lt;KeyType, ValueType&gt;" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAGQAAhAgCAEAIQAAAAAAAkgAAAACAAkAgAAQAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMatrix3" Collapsed="true">
+    <Position X="22" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAAAgAgAAEAAAB4AAECEAAAAACIAgAAIAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmatrix3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMatrix4" Collapsed="true">
+    <Position X="24.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACEBEQgQiAAACMAACH4CCGCmmgCICAsChMEICIDA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmatrix4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMeasurePerformance" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAEAAAAACACAAIBAAEAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmeasureperformance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMeasureScopeTimer" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmeasureperformance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMemManager" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQQAQAAGAAAAAABBAAAYAAAAAAAAAIAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EZMemManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMemObject" Collapsed="true">
+    <Position X="19" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmemobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMemPoolContainer&lt;T, TAlloc&gt;" Collapsed="true">
+    <Position X="42.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAgABCAAAAAAAAAAAACAIACgAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmempool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMemPool&lt;T, TAlloc&gt;" Collapsed="true">
+    <Position X="41" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgACAAAAAAAAKAAAEAAACAIAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmempool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMetricsTimer" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAEAEABAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTMetricsTimer&lt;T&gt;" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAhAAAAAAAAAAAgACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSystemClockTimer" Collapsed="true">
+    <Position X="44.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAgAAAAAABAAAAgAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPerformanceCounterTimer" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAiAAAAAABAAAAgAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzOSOperator" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAQAAgAAAAABAAAEoAAAgAAAAAIAAAgAAAgAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzOSOperator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPlane3d" Collapsed="true">
+    <Position X="44.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACEQAAAQAgQAAABAIAAQIAAABBEIAAQA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezplane3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPoint2" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECCAECUIAgAAAQAAQAAAACEAABAAIAgAAAAYIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezpoint2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPoint3" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEDAQEDUIAgAQAQAAQAAIAAEAEBAQBAgAAAAYEE=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezpoint3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPoint2" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAYAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezposition2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzQuaternion" Collapsed="true">
+    <Position X="16.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgASAAAIAAQEAQAAEAkAABBAACCgAAAIYAE=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezquaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzRect" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAABAIAACAAAAAgIIQAAAAAAxCAAAAAwAAAAQBA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezrect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzRefObject" Collapsed="true">
+    <Position X="30" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAAAAAIgAAIIAAAAAAKAAAAAAAAAACAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezrefobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzRTTI" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAAEAAAACAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezrtti.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSet&lt;T, TAlloc&gt;" Collapsed="true">
+    <Position X="41" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAEFIAAAQAAQAkAAAAACAAgACICAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAIQAAIAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezsingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzCoreSingtonGroup" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAABAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezcoresingtongroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzFixedAllocator" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAEEAAAAAAChEEAAAAAAIgAAIAIIAhIQAACQA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzSmallObjectAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSmallObjectAllocator" Collapsed="true">
+    <Position X="42.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEABAAAAAAAAAAAAAAAAAAgAAAAAhAAAIAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzSmallObjectAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSmartPointer&lt;T&gt;" Collapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAQAAAAgAAAAAAAwAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezsmartpointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzStandardAllocator" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAQAAGAAICAABBAEAIAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzStandardAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzString&lt;T&gt;" Collapsed="true">
+    <Position X="19" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEwAIAgAEMIAAAgGAMgIASgAEAEAAAIACAEkQAgBBAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezstring.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzThread" Collapsed="true">
+    <Position X="35.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCAIAEAEAEAAAgAAAABEAAAAAAAAAAAAAAAgAAADBAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTime" Collapsed="true">
+    <Position X="37.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAACABAAAAACAAAEQAAAAAAQAAAAAIBAAABAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriangle&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAQAAAAABAUAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriangle3D&lt;T&gt;">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAEAqAiCAAAAAAAAQAAwAAABAAAAABAAAAAAAAABA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzVariant" Collapsed="true">
+    <Position X="39.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAIAEgAACAACAEAAIQAQACBggADEJAAAAAgAACIAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzVariant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzXMLBase" Collapsed="true">
+    <Position X="41" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzXMLReader&lt;char_type, super_class&gt;" Collapsed="true">
+    <Position X="12" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAATQiAAACAACCAEAAAAAAAAAAgBAAAAAAAAABA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzXMLReaderImpl&lt;char_type, superclass&gt;" Collapsed="true">
+    <Position X="12" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAABTAjIgBCUACCAkqASRgAAAIi0BAAQAAiBAABE=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXMLReaderImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLogMessageOptions" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezlogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLogger" Collapsed="true">
+    <Position X="44.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CwAAEAABAggAIADBEAACQABAAAEAACIAgAAAAABAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezlogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLogManager" Collapsed="true">
+    <Position X="7.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAQAAAAAIAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzLogManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SViewFrustum" Collapsed="true">
+    <Position X="35.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACBAAACAAEAKAAAAABABAEAgAgAAAAAAAAgAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\sviewfrustum.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="inttofloat" Collapsed="true">
+    <Position X="39.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmath.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzMetricsClockTimer" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzMetricsPCTimer" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmetricstimer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzStringc" Collapsed="true">
+    <Position X="22.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezstring.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzStringw" Collapsed="true">
+    <Position X="19" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezstring.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTHREAD_START" Collapsed="true">
+    <Position X="41" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzThread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzTriangle16" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzTriangle32" Collapsed="true">
+    <Position X="13.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="triangle3df" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle3d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="triangle3di" Collapsed="true">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\eztriangle3d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="char16" Collapsed="true">
+    <Position X="35.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="char32" Collapsed="true">
+    <Position X="37.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzXMLReaderASCII" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzMLReaderUTF16" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EzXMLReaderUTfloat" Collapsed="true">
+    <Position X="11" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="eCullingType" Collapsed="true">
+    <Position X="42.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQgQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTURE_CLAMP" Collapsed="true">
+    <Position X="37.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAgAAAABACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTURE_FILTERMODE" Collapsed="true">
+    <Position X="41" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBAAAAACAAAAAAAAAABAAACAAAAAAIAAAAE=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTUREFILTERTYPE" Collapsed="true">
+    <Position X="44.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACAAAAAAAAAAAAAAAABIAAAAAAAAASAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTUREADDRESS" Collapsed="true">
+    <Position X="42.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAwAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTURE_APPLY_MODE" Collapsed="true">
+    <Position X="35.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAg=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTUREOP" Collapsed="true">
+    <Position X="35.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAIEJAgyAIAAICQAEAAAAAIgAAEIgDABBAAggAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTURESTAGESTATETYPE" Collapsed="true">
+    <Position X="37.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGgAAAAAAAAgAAAAAAAAAAAAAAAAAAQBCFAHAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXTURETRANSFORMFLAGS" Collapsed="true">
+    <Position X="39.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAIAAAAQAAAAAAIAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EDRIVER_TYPE" Collapsed="true">
+    <Position X="44.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EMULTISAMPLE_TYPE" Collapsed="true">
+    <Position X="41" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAAAAAAgABAIBAEAgAAAAgAAAAEAAQAIAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SAMPLERSTATETYPE" Collapsed="true">
+    <Position X="37.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAUAYAAAAgAgAQAAAQAAAAAAAAAEIgAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eTEXTURE_CREATION_FLAG" Collapsed="true">
+    <Position X="39.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAIAAAABgAACAABBAAAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eAVOBJECT_RENDER_PASS" Collapsed="true">
+    <Position X="39.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAAAAABAAAAAAAAAIAAoAAAAAABAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ECOLOR_FORMAT" Collapsed="true">
+    <Position X="41" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGaCTAQAAABABAABgAAAAYEAAAAAAAAAAAAAEQCAGAE=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETRANSFORMATION_STATE" Collapsed="true">
+    <Position X="41" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAA4IE=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EVERTEX_TYPE" Collapsed="true">
+    <Position X="42.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EPRIMITIVE_TYPE" Collapsed="true">
+    <Position X="42.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAQAAAAAAAAAAAAAAAAAAQAABAAAAAACA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EVIDEO_DRIVER_FEATURE" Collapsed="true">
+    <Position X="44.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACgAAQQCgAjCAxAAAABFAABgggwkAAIAGAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EANI_KEYFREAMTYPE" Collapsed="true">
+    <Position X="37.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAACAAQQAAAAAIAAAAgAAAAAAAAIA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EANI_KEYCONTENT" Collapsed="true">
+    <Position X="35.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAIIAAAAAAAAAAAICAAAIACAAAAAAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezenumtypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EMEM_EVENTTYPE" Collapsed="true">
+    <Position X="39.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACIAAAAAAEAAAABAAAAgAAAAAJIAAAgBAAAIAAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezmemorydefines.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EIntersectionRelation3D" Collapsed="true">
+    <Position X="35.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAEBAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\ezplane3d.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETEXT_FORMAT" Collapsed="true">
+    <Position X="44.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAACAAAAAAAAAAIAAAAAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EXML_NODE" Collapsed="true">
+    <Position X="35.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIABAAAACBAAAAAAAAAQIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzCore\EzXML.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EKEY_CODE" Collapsed="true">
+    <Position X="37.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FioQgE0CFkAEAKhACJrlQJNBBcT/gEklLDjoXiFBFGQ=</HashCode>
+      <FileName>d:\ppp\ezgame3d\corelibs\ezcore\keycodes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EzActorManager" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAACAAAAAAACABAAAAAAAAAAAEICA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzActorManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzAnimator" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAiKAIBAoABBAACACBEAQAAKDIiAIDKDDAABECgg=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzAnimator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzAVObject" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RANCMIRQAAgCCAGAAAUAAEDCCAkgIEIyAAIECMhUAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzAVObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzAVObjectPalette" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAAAAAAAYAAAAEAAAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzAVObjectPalette.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzBound" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAABAAQAAAAQgAAAAAAgAAACAgABAAgAAkAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzBound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzCamera" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEASIyIgBAgFAAADAAABAAAQCgAVoABgEgAAAhAUAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzCullingProcess" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAEAAAAACAIBAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzCullingProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzDirectionalLight" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAACAAAAAAAAgAAAAAAAAIAAgAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzDirectionalLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzDynamicEffect" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgQABAAAAAAAAQCAGAAACAAAEIiAAAAQAAAACAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzDynamicEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzDynamicEffectState" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAADAAAAIAAEAAAAEAAAAAhAAIIAAEAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzDynamiceffectstate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzExtraData" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAAAAAAAAAACAAAAABAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzExtraData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzGeometry" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AImQAAACIAgBAABAAAgAgAAgAABAAQRQAAAACIAwYBA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzGeometry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzGeometryData" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GDCCCYgMgAEBKMAQAAAAABEAFkAxABAQgAACABiEBAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzGeometryData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzGridLine" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzGridLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzHardwareSkinPartition" Collapsed="true">
+    <Position X="32" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIBAAAAAAABAAAAABAAQABACAAAAEAAAAAAAAAg=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzHardwareSkinPartition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLight" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAAAAKACAQAAAAAAAAAAAAQAAAAAACgAEAAAAAAQ=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLine" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAQAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzLineData" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAIAAAQAAAAAAAAAAAAAAgAAAAAAAAAQIAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzLineData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzMaterialProperty" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACgAICKATAcABAAAABAAAABAABAAAAykAMgIQABCQ=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzMaterialProperty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzNode" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCQAEkAAAAUABAAAAAAAAAAAAAQQEICCAAAYEo=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzObject" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzObjectFactory" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAAAAgAAAIAAAAAIAAAAACAgAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzObjectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzObjectNET" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABIAABAIAABAAQABAAASAAAABAAKABAAAAMIJAABAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzObjectNET.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzProperty" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAABAAAAAAAAAAAAAAABCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzProperty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzPropertyState" Collapsed="true">
+    <Position X="40.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAkAAAAAAAAIAAAAAAAAABAAEAIAABAAAgAAABAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzPropertyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzRendererData" Collapsed="true">
+    <Position X="42" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkAApgIABAAIgAAABAAAAAIQAgABEAAAgAIAAAAEAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzRendererData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzShader" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAgAgAAAAAhAAACAAIAAAAEAABAgAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzShaderFactory" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAIAAAAAAACBAAEBEAAkEAAAAAIAAAAAAAAAUAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzShaderFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzShaderLibrary" Collapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAAAAAAAEAAAAAAAAABAAIAEAAQAQAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzShaderLibrary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSkinData" Collapsed="true">
+    <Position X="34.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAAAAAAAAAAAkAAAhEAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzSkinData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzSkinInstance" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwEADBAAAACAhAAACIMAAAAAAAAAgAAAEAECAAAAMAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzSkinInstance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzStream" Collapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIQIAAAgAAAAAwUICRAAEAAAQCAwCAAAAEAAo=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzStringPalette" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAAAAAAAAIAAAEAQAAAAAAAAAEAAAAAACAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzStringPalette.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTexturingProperty" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIBAAAAAAAAAAAAAAAAAAAAAACANAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTexturingProperty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriangleFromStrip" Collapsed="true">
+    <Position X="40.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAkAEAEBAAIQAACAAAAAAAAAAAAAAAAQAAAEERAAs=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriangleFromStrip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriBasedGeom" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriBasedGeom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriBasedGeomData" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAAAQAEIRAAAAAQAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriBasedGeomData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriShape" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAABQAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriShapeData" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAAAEEBAAAAAAAAAgAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriShapeData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriStrips" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriStrips.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzTriStripsData" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAIAAAAAAIAQAQAAAAAAAAAAAAAAAiAAAAAAAAAM=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriStripsData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EzRenderPass" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYEgISAQhAAaBgCAAAMAMAMAAAkCARQiAAOAACgIgI=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzRenderPass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GameEasy::SCreationParameters3D" Collapsed="true">
+    <Position X="36.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAACBAAAAAAQAAACAQAAAAABIAACAkAAQAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\SCreationParameters3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameEasy::SLight" Collapsed="true">
+    <Position X="38.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAEkAQAAAAA0CAAAACAEAEgAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\SLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="EzDynEffectStateIter" Collapsed="true">
+    <Position X="38.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzDynamiceffectstate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="createObjfunc" Collapsed="true">
+    <Position X="36.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzObjectFactory.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TriStrip" Collapsed="true">
+    <Position X="40.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriangleFromStrip.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TriStrips" Collapsed="true">
+    <Position X="42" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzTriangleFromStrip.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ESHADE_MODE" Collapsed="true">
+    <Position X="38.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAIAAAAAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\EzRenderPass.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameEasy::ELIGHT_TYPE" Collapsed="true">
+    <Position X="36.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAEgAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\ppp\EzGame3D\CoreLibs\EzMain3D\SLight.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

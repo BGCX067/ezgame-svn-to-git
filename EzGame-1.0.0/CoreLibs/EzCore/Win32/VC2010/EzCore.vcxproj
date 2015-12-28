@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug DLL|Win32">
+      <Configuration>Debug DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug STATIC|Win32">
+      <Configuration>Debug STATIC</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA1BF26F-7ABF-49B2-99C4-A20F0AE50DB8}</ProjectGuid>
+    <RootNamespace>EzCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug_Static|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug STATIC|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_MEMORY_DEBUGGER</PreprocessorDefinitions>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy  "$(TargetPath)" "..\..\..\..\SDK\Win32\Lib\VC2010\DEBUG"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;EZCORE_EXPORT</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy  "$(TargetPath)" "..\..\SDK\Win32\DLL\DEBUG"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_MEMORY_DEBUGGER</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\SDK\include\EzAppMain.h" />
+    <ClInclude Include="..\..\..\..\SDK\include\EzPoint2" />
+    <ClInclude Include="..\..\EzAabbox3d.h" />
+    <ClInclude Include="..\..\EzAllocator.h" />
+    <ClInclude Include="..\..\EzArray.h" />
+    <ClInclude Include="..\..\EzColor.h" />
+    <ClInclude Include="..\..\EzConfigFile.h" />
+    <ClInclude Include="..\..\EzCore.h" />
+    <ClInclude Include="..\..\EzCoreLibType.h" />
+    <ClInclude Include="..\..\EzCoreUtility.h" />
+    <ClInclude Include="..\..\EzCriticalSection.h" />
+    <ClInclude Include="..\..\EzDebugConsole.h" />
+    <ClInclude Include="..\..\EzDebugHelper.h" />
+    <ClInclude Include="..\..\EzDimension2d.h" />
+    <ClInclude Include="..\..\EzEnumTypes.h" />
+    <ClInclude Include="..\..\EzExcelCsv.h" />
+    <ClInclude Include="..\..\EzExcelCsvLine.h" />
+    <ClInclude Include="..\..\EzFast_atof.h" />
+    <ClInclude Include="..\..\EzFile.h" />
+    <ClInclude Include="..\..\EzFlags.h" />
+    <ClInclude Include="..\..\EzHeapsort.h" />
+    <ClInclude Include="..\..\EzLine2d.h" />
+    <ClInclude Include="..\..\EzLine3d.h" />
+    <ClInclude Include="..\..\EzList.h" />
+    <ClInclude Include="..\..\EzLogger.h" />
+    <ClInclude Include="..\..\EzLogManager.h" />
+    <ClInclude Include="..\..\EzMain.h" />
+    <ClInclude Include="..\..\EzMap.h" />
+    <ClInclude Include="..\..\EzMath.h" />
+    <ClInclude Include="..\..\EzMatrix3.h" />
+    <ClInclude Include="..\..\EzMatrix4.h" />
+    <ClInclude Include="..\..\EzMeasurePerformance.h" />
+    <ClInclude Include="..\..\EZMemManager.h" />
+    <ClInclude Include="..\..\EzMemObject.h" />
+    <ClInclude Include="..\..\EzMemoryDefines.h" />
+    <ClInclude Include="..\..\EzMemPool.h" />
+    <ClInclude Include="..\..\EzMemTracker.h" />
+    <ClInclude Include="..\..\EzMetricsTimer.h" />
+    <ClInclude Include="..\..\EzOSOperator.h" />
+    <ClInclude Include="..\..\EzPath.h" />
+    <ClInclude Include="..\..\EzPlane3d.h" />
+    <ClInclude Include="..\..\EzPoint2.h" />
+    <ClInclude Include="..\..\EzPoint3.h" />
+    <ClInclude Include="..\..\EzQuaternion.h" />
+    <ClInclude Include="..\..\EzRect.h" />
+    <ClInclude Include="..\..\EzRefObject.h" />
+    <ClInclude Include="..\..\EzRTTI.h" />
+    <ClInclude Include="..\..\EzSet.h" />
+    <ClInclude Include="..\..\EzSingleton.h" />
+    <ClInclude Include="..\..\EzCoreSingtonGroup.h" />
+    <ClInclude Include="..\..\EzSmallObjectAllocator.h" />
+    <ClInclude Include="..\..\EzSmartPointer.h" />
+    <ClInclude Include="..\..\EzStandardAllocator.h" />
+    <ClInclude Include="..\..\EzString.h" />
+    <ClInclude Include="..\..\EzSystem.h" />
+    <ClInclude Include="..\..\EzThread.h" />
+    <ClInclude Include="..\..\EzTime.h" />
+    <ClInclude Include="..\..\EzTriangle.h" />
+    <ClInclude Include="..\..\EzTriangle3d.h" />
+    <ClInclude Include="..\..\EzVariant.h" />
+    <ClInclude Include="..\..\EzXML.h" />
+    <ClInclude Include="..\..\EzXMLReaderImpl.h" />
+    <ClInclude Include="..\..\Keycodes.h" />
+    <ClInclude Include="..\..\SViewFrustum.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\EzConfigFile.cpp" />
+    <ClCompile Include="..\..\EzCore.cpp" />
+    <ClCompile Include="..\..\EzDebugConsole.cpp" />
+    <ClCompile Include="..\..\EzDebugHelper.cpp" />
+    <ClCompile Include="..\..\EzExcelCsv.cpp" />
+    <ClCompile Include="..\..\EzExcelCsvLine.cpp" />
+    <ClCompile Include="..\..\EzFile.cpp" />
+    <ClCompile Include="..\..\EzLogger.cpp" />
+    <ClCompile Include="..\..\EzLogManager.cpp" />
+    <ClCompile Include="..\..\EzMath.cpp" />
+    <ClCompile Include="..\..\EzMeasurePerformance.cpp" />
+    <ClCompile Include="..\..\EZMemManager.cpp" />
+    <ClCompile Include="..\..\EzMemObject.cpp" />
+    <ClCompile Include="..\..\EzMemoryDefines.cpp" />
+    <ClCompile Include="..\..\EzMemTracker.cpp" />
+    <ClCompile Include="..\..\EzOSOperator.cpp" />
+    <ClCompile Include="..\..\EzPath.cpp" />
+    <ClCompile Include="..\..\EzRefObject.cpp" />
+    <ClCompile Include="..\..\EzSingleton.cpp" />
+    <ClCompile Include="..\..\EzCoreSingtonGroup.cpp" />
+    <ClCompile Include="..\..\EzSmallObjectAllocator.cpp" />
+    <ClCompile Include="..\..\EzStandardAllocator.cpp" />
+    <ClCompile Include="..\..\EzThread.cpp" />
+    <ClCompile Include="..\..\EzTime.cpp" />
+    <ClCompile Include="..\..\EzTransform.cpp" />
+    <ClCompile Include="..\..\EzVariant.cpp" />
+    <ClCompile Include="..\..\EzXML.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Document\EzGame3DUML\EzGame3D.uml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\..\..\..\SDK\include\Ez3DUtility" />
+    <None Include="..\..\..\..\SDK\include\EzArray" />
+    <None Include="..\..\..\..\SDK\include\EzColor" />
+    <None Include="..\..\..\..\SDK\include\EzConfigFile" />
+    <None Include="..\..\..\..\SDK\include\EzCore" />
+    <None Include="..\..\..\..\SDK\include\EzDebugHelper" />
+    <None Include="..\..\..\..\SDK\include\EzLogger" />
+    <None Include="..\..\..\..\SDK\include\EzMain3D" />
+    <None Include="..\..\..\..\SDK\include\EzMap" />
+    <None Include="..\..\..\..\SDK\include\EzMaterialProperty" />
+    <None Include="..\..\..\..\SDK\include\EzMatrix3" />
+    <None Include="..\..\..\..\SDK\include\EzNode" />
+    <None Include="..\..\..\..\SDK\include\EzPoint3" />
+    <None Include="..\..\..\..\SDK\include\EzRtti" />
+    <None Include="..\..\..\..\SDK\include\EzShaderFactory" />
+    <None Include="..\..\..\..\SDK\include\EzString" />
+    <None Include="..\..\..\..\SDK\include\EzTexturingProperty" />
+    <None Include="..\..\..\..\SDK\include\EzTriangle" />
+    <None Include="EzCoreDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

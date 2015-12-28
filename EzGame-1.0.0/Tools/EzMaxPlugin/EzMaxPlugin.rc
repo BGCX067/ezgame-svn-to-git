@@ -1,0 +1,303 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EZSHADER DIALOGEX 0, 0, 216, 245
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Material",-1,2,2,101,107
+    RTEXT           "Ambient:",-1,8,13,33,10
+    CONTROL         "User1",IDC_CLR_AMBIENT,"ColorSwatch",0x0,44,12,34,12
+    RTEXT           "Diffuse:",-1,8,28,33,10
+    CONTROL         "User1",IDC_CLR_DIFFUSE,"ColorSwatch",0x0,44,26,34,12
+    CONTROL         "M",IDC_MAP_DIFFUSE,"CustButton",0x0,80,27,10,10
+    RTEXT           "Specular:",-1,8,40,33,10
+    CONTROL         "User1",IDC_CLR_SPECULAR,"ColorSwatch",0x0,44,40,34,12
+    CONTROL         "On",IDC_CHK_SPECENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,41,21,10
+    RTEXT           "Emittance:",-1,7,55,34,10
+    CONTROL         "User1",IDC_CLR_EMITTANCE,"ColorSwatch",0x0,44,54,34,12
+    RTEXT           "Glossiness:",-1,5,70,36,10
+    CONTROL         "",IDC_EDT_SHININESS,"CustEdit",WS_TABSTOP,44,70,23,10
+    CONTROL         "0,255,0",IDC_SPN_SHININESS,"SpinnerControl",WS_TABSTOP,66,70,11,10
+    RTEXT           "Alpha:",-1,8,82,33,10
+    CONTROL         "",IDC_EDT_ALPHA,"CustEdit",WS_TABSTOP,44,82,23,10
+    CONTROL         "0,255,0",IDC_SPN_ALPHA,"SpinnerControl",WS_TABSTOP,66,82,11,10
+    CONTROL         "Dither",IDC_CHK_DITHER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,95,44,10
+    GROUPBOX        "Vertex Colors",-1,2,117,105,51
+    CONTROL         "On",IDC_CHK_VERTEXENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,126,21,10
+    RTEXT           "Src Mode:",-1,6,139,38,10
+    COMBOBOX        IDC_CBO_VERTEX_SRC,48,138,51,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Light Mode:",-1,6,154,38,10
+    COMBOBOX        IDC_CBO_VERTEX_LIGHT,48,152,51,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Transparency Modes",-1,108,2,105,107
+    CONTROL         "Automatic",IDC_RDO_TRANS_AUTO,"Button",BS_AUTORADIOBUTTON,112,12,47,10
+    CONTROL         "None",IDC_RDO_TRANS_NONE,"Button",BS_AUTORADIOBUTTON,170,12,33,10
+    CONTROL         "Standard",IDC_RDO_TRANS_STD,"Button",BS_AUTORADIOBUTTON,112,23,45,10
+    CONTROL         "Advanced",IDC_RDO_TRANS_ADV,"Button",BS_AUTORADIOBUTTON,112,56,49,10
+    CONTROL         "Additive",IDC_RDO_TRANS_ADD,"Button",BS_AUTORADIOBUTTON,112,33,41,10
+    CONTROL         "Multiplicative",IDC_RDO_TRANS_MULT,"Button",BS_AUTORADIOBUTTON,112,44,57,10
+    GROUPBOX        "Alpha Testing",-1,110,117,100,51
+    CONTROL         "On",IDC_CHK_ALPHATESTENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,128,127,21,10
+    CONTROL         "NoSorter",IDC_CHK_NOSORTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,162,127,44,10
+    RTEXT           "Test Ref:",-1,112,139,37,10
+    CONTROL         "",IDC_EDT_TESTREF,"CustEdit",WS_TABSTOP,156,139,23,10
+    CONTROL         "0,255,0",IDC_SPN_TESTREF,"SpinnerControl",WS_TABSTOP,180,139,11,10
+    RTEXT           "Test Mode:",-1,111,154,37,8
+    COMBOBOX        IDC_CBO_TESTMODE,149,152,58,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Src:",-1,110,71,18,10
+    COMBOBOX        IDC_CBO_TRANS_SRC,130,69,75,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Dest:",-1,110,85,17,10
+    COMBOBOX        IDC_CBO_TRANS_DEST,130,84,75,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CBO_APPLY_MODE,40,178,59,75,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Apply",-1,2,169,105,25
+    RTEXT           "Mode:",-1,6,178,21,8
+    COMBOBOX        IDC_CUSTOM_SHADER,58,210,143,136,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Selected Shader:",-1,12,207,40,18
+    GROUPBOX        "Custom Shader",-1,2,196,208,35
+END
+
+IDD_EXPORT_PANEL DIALOGEX 0, 0, 231, 315
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Export EZF"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Export",IDOK,7,284,34,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,49,284,34,14
+    GROUPBOX        "Export",IDC_STATIC,7,76,217,47
+    CONTROL         "Skeleton Only",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,88,60,10
+    CONTROL         "Collsion",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,103,40,10
+    CONTROL         "Cameras",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,87,44,10
+    CONTROL         "Lights",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,103,35,10
+    GROUPBOX        "Mesh",IDC_STATIC,7,128,101,79
+    GROUPBOX        "Skin Modifier",IDC_STATIC,113,129,111,79
+    CONTROL         "Generate Strips",IDC_CHK_STRIPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,140,88,10
+    CONTROL         "Vertex Color",IDC_CHK_VERTEXCOLORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,155,86,10
+    CONTROL         "Update Tangent Space",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,171,89,10
+    CONTROL         "Export Skin",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,143,52,10
+    CONTROL         "Enable Multiple Partitions",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,157,95,10
+    LTEXT           "Bone Per Partitions:",IDC_STATIC,117,173,64,8
+    EDITTEXT        IDC_EDIT1,185,168,33,14,ES_AUTOHSCROLL
+    LTEXT           "Bone Per Vertex:",IDC_STATIC,117,190,56,8
+    EDITTEXT        IDC_EDIT2,185,188,33,14,ES_AUTOHSCROLL
+    GROUPBOX        "Animation",IDC_STATIC,7,213,120,63
+    COMBOBOX        IDC_CBO_ANIM_TYPE,15,226,104,92,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Transforms",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,244,52,10
+    LTEXT           "Priority:",IDC_STATIC,16,261,26,8
+    EDITTEXT        IDC_EDIT3,45,259,73,14,ES_AUTOHSCROLL
+    GROUPBOX        "General Option",IDC_STATIC,7,7,217,59
+    EDITTEXT        IDC_ED_TEXPREFIX,10,47,210,14,ES_AUTOHSCROLL
+    LTEXT           "Texture Prefix",IDC_STATIC,11,34,46,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_EXPORT_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EXPORT_PANEL DLGINIT
+BEGIN
+    IDC_CBO_ANIM_TYPE, 0x403, 19, 0
+0x494e, 0x2046, 0x2f77, 0x206f, 0x6e41, 0x6d69, 0x7461, 0x6f69, 0x206e, 
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPORT_CLASS_NAME   "Easy Game Export"
+    IDS_EXPORT_CATEGORY     "121323"
+    IDS_EXPORT_LIBDESCRIPTION "1212"
+    IDS_EXPORT_INTERNALNAME "31212"
+    IDS_EXPORT_LONGDESCRIPTION "Game Easy 3D File"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPORT_SHORTDESCRIPTION "Game Easy 3D File"
+    IDS_EXPORT_AUTHORNAME   "test sadh asd  asdhg asdj  asjdg asjd "
+    IDS_SHADER_CLASS_NAME   "Easy Game Shader"
+    IDS_SHADER_NAME         "Easy Game Shader"
+    IDS_SHADER_PARAMETERS_NAME "Easy Game Shader Basic Parameters"
+    IDS_SHADER_BASIC        "Easy Game Shader Basic Parameters"
+    IDS_RB_SEGS             "Segments"
+    IDS_RB_SMOOTH           "Smooth"
+    IDS_RB_PRIMITIVES       "Standard Primitives"
+    IDS_RB_SPHERE           "bhkSphere"
+    IDS_RB_RADIUS1          "Radius 1"
+    IDS_RB_RADIUS2          "Radius 2"
+    IDS_RB_SPHERE_CLASS     "bhkSphere"
+    IDS_DS_PARAMCHG         "Param Change"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DS_LAYER            "Layer"
+    IDS_DS_MATERIAL         "Material"
+    IDS_DS_NODE             "Node"
+    IDS_DS_PRIORITY         "Priority"
+    IDS_DS_COLLISION        "Collision"
+    IDS_PICKNODE            "picknode"
+    IDS_PICKNODE_PROMPT     "Pick the Collision Mesh that is associated with this mesh."
+    IDS_RB_BOX              "bhkBox"
+    IDS_VERTEXCOLORENABLE   "Vertex Color Enable"
+    IDS_SRC_VERTEX_MODE     "Source Vertex Mode"
+    IDS_LIGHTING_MODE       "Vertex Lighting Mode"
+    IDS_APPLY_MODE          "Apply Mode"
+    IDS_TEST_REF            "Alpha Test Reference"
+    IDS_TEST_MODE           "Alpha Test Mode"
+    IDS_ALPHATEST_ENABLE    "Alpha Test Enable"
+    IDS_ALPHA_NOSORTER      "Alpha No Sorter"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BUMP_MAGNITUDE      "Bump Map Magnitude"
+    IDS_LUMA_SCALE          "Bump Map Luma Scale"
+    IDS_LUMA_OFFSET         "Bump Map Luma Offset"
+    IDS_RB_FIXDUPL          "Remove Duplicates"
+    IDS_RB_SELUNUSED        "Select Unused Faces"
+    IDS_MAT_DIFFUSE         "Diffuse"
+    IDS_MAT_SPECULAR        "Specular"
+    IDS_MAT_SELFILLUMCLR    "Self Illumination Color"
+    IDS_MAT_SELFILLUM       "Self-Illumination"
+    IDS_MAT_GLOSSINESS      "Glossiness"
+    IDS_MAT_SPECLEVEL       "Specular Level"
+    IDS_MAT_SOFTENLEVEL     "Soften Level"
+    IDS_MAT_SHININESS       "Shininess"
+    IDS_MAT_AMBIENT         "Ambient"
+    IDS_MAT_EMITTANCE       "Emittance"
+    IDS_MAT_SELFILLUMON     "Self-Illumination On"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAT_SPECULARENABLE  "Specular Enable"
+    IDS_MAT_ALPHA           "Alpha"
+    IDS_MAT_DITHER          "Dither"
+    IDS_ALPHA_MODE          "Alpha Transparency Mode"
+    IDS_ALPHA_SRC           "Transparency Source"
+    IDS_ALPHA_DEST          "Transparency Dest"
+    IDS_CHAN_BASE           "Base"
+    IDS_CHAN_DARK           "Dark"
+    IDS_CHAN_DETAIL         "Detail"
+    IDS_CHAN_GLOSS          "Gloss"
+    IDS_CHAN_GLOW           "Glow"
+    IDS_CHAN_BUMP           "Bump"
+    IDS_CHAN_NORMAL         "Normal"
+    IDS_CHAN_UNK2           "Unknown 2"
+    IDS_CHAN_DECAL1         "Decal 1"
+    IDS_CHAN_DECAL2         "Decal 2"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHAN_DECAL3         "Decal 3"
+    IDS_CHAN_ENVMASK        "Environ Mask"
+    IDS_CHAN_ENV            "Environment"
+    IDS_CHAN_OPACITY        "Opacity"
+    IDS_CHAN_HEIGHT         "Height"
+    IDS_CHAN_REFLECTION     "Reflection"
+    IDS_CHAN_EMPTY          " "
+    IDS_MAXCHAN_DIFFUSE     "diffuseMap"
+    IDS_MAXCHAN_SELFILLUMMAP "selfIllumMap"
+    IDS_MAXCHAN_NORMAL      "bumpMap"
+    IDS_MAXCHAN_GLOW        "Glow"
+    IDS_MAXCHAN_GLOSS       "shinestrengthMap"
+    IDS_MAXCHAN_DETAIL      "Detail"
+    IDS_MAXCHAN_BUMP        "Bump"
+    IDS_MAXCHAN_EMPTY       " "
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
